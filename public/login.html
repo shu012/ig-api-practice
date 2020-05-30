@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+        <script src="https://code.jquery.com/jquery-3.0.0.js" integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo=" crossorigin="anonymous"/>
+
+        <!-- Website title -->
+        <title>Instagram</title>
+    </head>
+
+    <body>
+        <!-- Header/Logo -->
+        <h1 id="user">Lorem Ipsum</h1>
+        <!--Navigation Bar-->
+        <div class="cf nav_bar">
+            <ul>
+              <li><a class="myPhotos">My Photos</a></li>
+              <li><a class="active userTags myPhotos" href="https://api.instagram.com/oauth/authorize/?client_id=bc6471393fab416d83988b98aea8371f&redirect_uri=http://localhost:3000&response_type=token&scope=public_content&">Log In</a></li>
+            </ul>
+        </div>
+
+        <!-- Search Bar -->
+        <center style="padding-bottom: 30px">
+            <form style="padding-top: 15px">
+                <input type="text" id="search" name="search" placeholder="Search..">
+            </form>
+        </center>
+
+        <div id="border" style="padding-left: 27%">
+            <h3>Connect to Instagram</h3>
+        </div>
+    </body>
+</html>

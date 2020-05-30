@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Stylesheets -->
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+        <script src="https://code.jquery.com/jquery-3.0.0.js" integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo=" crossorigin="anonymous"></script>
+
+        <!-- Website title -->
+        <title>Instagram</title>
+
+        <!-- Header/Logo -->
+        <h1 id="user">Lorem Ipsum</h1>
+    </head>
+
+    <body>
+        <!--Navigation Bar-->
+        <div class="cf nav_bar">
+            <ul>
+              <li><a class="login fitToBox" href="https://api.instagram.com/oauth/authorize/?client_id=bc6471393fab416d83988b98aea8371f&redirect_uri=http://localhost:3000&response_type=token&scope=public_content&">Log in</a></li>
+              <li><a class="active fitToBox">Logged Out</a></li>
+            </ul>
+        </div>
+
+        <!-- Search Bar -->
+        <center style="padding-bottom: 30px">
+            <form style="padding-top: 15px">
+                <input type="text" id="search" name="search" placeholder="Search..">
+            </form>
+        </center>
+
+        <div id="border" style="padding-left: 25%">
+            <h3> You have successfully logged out. </h3>
+        </div>
+    </body>
+</html>
